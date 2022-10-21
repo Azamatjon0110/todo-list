@@ -1,0 +1,39 @@
+.box{
+  width: 70%;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.desc{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.btn-box{
+  width: 30%;
+  display: block;
+  display: flex;
+  justify-content: end;
+}
+
+@media  only screen and (min-width:992px) {
+  .input-group{
+    width: 75%;
+  }
+
+  .list-unstyled{
+    width: 75%;
+  }
+}
+
+@media  only screen and (min-width:1400px) {
+  .input-group{
+    width: 50%;
+  }
+
+  .list-unstyled{
+    width: 50%;
+  }
+}
